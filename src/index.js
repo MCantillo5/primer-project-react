@@ -2,12 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import './App.css'
 import reportWebVitals from './reportWebVitals';
-
+import Profile from './profile';
+import Login from './login';
+import Product from './product';
+import Banner from "./nav";
+import Text from "./text";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    {/* <Banner/> 
+    <Text/>
+    <Login/>
+    <Profile/>
+    <Product sabor={'chocolate'}/>
+    <Product sabor={'vainilla'}/>
+    <Product sabor={'banano'}/>  */}
   </React.StrictMode>
 );
 
