@@ -1,25 +1,19 @@
 import React from "react";
 
 
-function Login(){
-  return (
-    <div className="section">
-      <form className='section-items'>
-      <h1>Log in</h1>
-        <div className='datas'>
-        <label>Email
-          <input type="text" name="email"  ></input>
-        </label>
 
-        <label>Password
-          <input type="text" name="password"></input>
-        </label>
+const Login = () =>{
+  return (
+    <form className="login-form">
+      <h1 className="title-login">Log in</h1>
+        <div className="form-items">
+        <label className="label">Email</label>
+          <input className="input" type="text" name="email" ></input>
+        <label className="label">Password</label>
+          <input className="input" type="text" name="password" ></input>
         </div>
-        <div className='btn'>
-          <button type='submit' >Registrame</button>
-        </div>
-      </form>
-    </div>
+          <button className="btn" type='submit' >Registrame</button>
+    </form>
   )
 }
 

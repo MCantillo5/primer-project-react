@@ -8,7 +8,7 @@ import Profile from './profile';
 import Login from './login';
 import Product from './product';
 import Banner from "./nav";
-import Text from "./text";
+import Header from "./header";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

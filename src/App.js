@@ -4,7 +4,7 @@ import Nav from "./nav";
 import Product from "./product";
 import Profile from "./profile";
 import Login from "./login";
-import Text from './text';
+import Header from './header';
 
 
 
@@ -21,7 +21,7 @@ function App(){
 
     <div className='App'>
       <Nav/>
-      <Text/>
+      <Header/>
       <Login/>
       <Profile/>
       <Product sabor={'chocolate'}/>

@@ -1,51 +1,27 @@
 import React from "react";
 
-const styles = {
-  nav: {
-    backgroundColor: 'black',
-    padding: '15px',
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    color: '#fff',
-  },
-  logo: {
-    fontSize: '24px',
-    fontWeight: 'bold',
-    textDecoration: 'none',
-    color: '#fff',
-  },
-  navItems: {
-    listStyle: 'none',
-    display: 'flex',
-    gap: '15px',
-  },
-  navItem: {
-    textDecoration: 'none',
-    color: '#fff',
-  },
-};
-const Nav = () => {
+
+function Nav() {
   return (
-    <nav style={styles.nav}>
+    <nav className="navbar">
       <div>
-        <a href="/" style={styles.logo}>
+        <a href="/" className="nav-logo">
           Logo
         </a>
       </div>
-      <ul style={styles.navItems}>
+      <ul className="nav-items">
         <li>
-          <a href="/" style={styles.navItem}>
+          <a href="/" className="items">
             Inicio
           </a>
         </li>
         <li>
-          <a href="/productos" style={styles.navItem}>
+          <a href="/" className="items">
             Productos
           </a>
         </li>
         <li>
-          <a href="/contacto" style={styles.navItem}>
+          <a href="/" className="items">
             Contacto
           </a>
         </li>

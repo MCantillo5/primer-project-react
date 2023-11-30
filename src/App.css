@@ -1,70 +1,116 @@
-/*banner*/
-.navbar{
-  display: flex;
-  align-items: center;
+.App {
 }
 
-.navbar-items{
-  width: 100vh;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-/*register*/
-.form-register{
-  align-items: center;
-  justify-content: center;
-
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
-.form-items{
-  width: 200px;
-  height: 260px;
-  border: 1px solid #000;
-  align-items: center;
-  justify-content: center;
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-
-
-.btn{
-  width: 100px;
+.App-link {
+  color: #61dafb;
 }
 
-/* Login*/
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
-.section{
+/* nav */
+
+.navbar {
+  background-color: rgb(143, 138, 138);
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  color: #fff
+}
+
+.nav-logo{
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 50px;
+}
+.nav-items{
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin-left: 60px;
+}
+
+.items{
+  text-decoration: none;
+  color: #fff;
+  padding: 45px;
+}
+
+/* header */
+
+.title{
   text-align: center;
+  font-family:cursive;
+}
+.title p{
+  font-family:serif;
+}
+.title h1{
+  margin-top: 70px;
 }
 
-.section-items{
-  width: 200px;
-  height: 260px;
-  border: 1px solid #000;
+/* login */
+
+.login-form{
+  margin:0 auto;
+  max-width:200px;
+  max-height: auto;
+  padding: 40px;
+  border:1px solid #ccc;
   align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
+  margin-top: 50px;
+}
+.form-items{
+  margin-top: 20px;
 }
 
+.title-login{
+  text-align:center;
+  align-items: center;
+  margin: auto;
+}
 
-
+.input{
+  width:100%;
+  padding: 5px;
+  margin-top:10px;
+}
 .btn{
-  width: 100px;
-}
-
-/*products*/
-
-.product-img{
-  width: 40vh;
-  display: flex;
-  align-items: center;
-}
-
-
-
-/*profile*/
-
-.icon-profile{
-  width: 15vh;
+  width:107%;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: rgb(14, 173, 138);
+  border:none;
+  color:white;
 }
