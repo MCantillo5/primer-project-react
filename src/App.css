@@ -1,5 +1,4 @@
-.App {
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -43,7 +42,8 @@
   padding: 15px;
   display: flex;
   align-items: center;
-  color: #fff
+  color: #fff;
+  justify-content: space-between;
 }
 
 .nav-logo{
@@ -82,6 +82,40 @@
 .title p{
   font-family:serif;
 }
+/* .hr-user{
+  width: 378px;
+  align-items: center;
+  margin-left: 40px;
+  position: absolute;
+  margin-top: 30px;
+} */
+
+/* chart */
+
+.content-chart{
+  align-items: center;
+  text-align: center;
+  margin-top: -200px;
+}
+
+.group-chart{
+  width: 400px;
+  background-color: white;
+  color: black;
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  border-radius: 7px;
+}
+
+.icons{
+  width: 60px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-left: 5px;
+}
+
+
 
 /* login */
 
@@ -118,7 +152,6 @@ button:hover{
 
 .form-register{
   align-items: center;
-  margin-top: -281px;
 }
 
 .form-group{
@@ -127,9 +160,7 @@ button:hover{
   width: 250px;
   border: 1px solid #ccc;
   padding: 30px;
-  margin: auto;
-  margin-left: 480px;
-  position: absolute;
+  margin: 0 auto;
 }
 
 .title-register{
@@ -173,14 +204,6 @@ input{
   text-align: center;
 }
 
-.hr-user{
-  width: 378px;
-  align-items: center;
-  margin-left: -40px;
-  position: absolute;
-  margin-top: 30px;
-}
-
 .description{
   display: flex;
 }
@@ -206,17 +229,20 @@ input{
 .content{
   align-items: center;
   text-align: center;
+  display: flex;
 }
 
 .group-content{
-  width: 150px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  height: 300%;
 }
 
+
 .product-img{
-  width: 40vh;
+  width: 50%;
+  margin-top: 100px;
+  margin-left: 40px;
 }
 
 /* footer */
@@ -224,5 +250,5 @@ input{
 footer{
   padding: 5px;
   text-align: center;
-  background-color: #142544;
+  background-color: #616670;
 }

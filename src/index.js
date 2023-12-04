@@ -4,22 +4,13 @@ import './index.css';
 import App from './App';
 import './App.css'
 import reportWebVitals from './reportWebVitals';
-import Profile from './profile';
-import Login from './login';
-import Product from './product';
-import Banner from "./nav";
-import Header from "./header";
+import { BrowserRouter } from 'react-router-dom';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    {/* <Banner/> 
-    <Text/>
-    <Login/>
-    <Profile/>
-    <Product sabor={'chocolate'}/>
-    <Product sabor={'vainilla'}/>
-    <Product sabor={'banano'}/>  */}
+    
   </React.StrictMode>
 );
 
