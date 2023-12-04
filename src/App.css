@@ -39,7 +39,7 @@
 /* nav */
 
 .navbar {
-  background-color: rgb(143, 138, 138);
+  background-color: #142544;
   padding: 15px;
   display: flex;
   align-items: center;
@@ -68,49 +68,161 @@
 
 /* header */
 
-.title{
-  text-align: center;
+.header{
+  text-align: right;
   font-family:cursive;
+}
+.title{
+  margin-right: 50px;
+}
+
+.title h1{
+  margin-top: 90px;
 }
 .title p{
   font-family:serif;
 }
-.title h1{
-  margin-top: 70px;
-}
 
 /* login */
 
-.login-form{
-  margin:0 auto;
-  max-width:200px;
-  max-height: auto;
-  padding: 40px;
-  border:1px solid #ccc;
-  align-items: center;
-  margin-top: 50px;
-}
+
 .form-items{
-  margin-top: 20px;
+  margin-top: 50px;
+  width: 250px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  margin-left: 70px;
 }
 
 .title-login{
   text-align:center;
-  align-items: center;
   margin: auto;
+  margin-bottom: 15px;
 }
 
-.input{
-  width:100%;
-  padding: 5px;
-  margin-top:10px;
-}
-.btn{
-  width:107%;
+button{
+  width:104%;
   padding: 5px;
   margin-top: 20px;
   margin-bottom: 10px;
   background-color: rgb(14, 173, 138);
   border:none;
   color:white;
+}
+
+button:hover{
+  background-color: rgb(31, 196, 160);
+}
+
+/* register */
+
+.form-register{
+  align-items: center;
+  margin-top: -281px;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  border: 1px solid #ccc;
+  padding: 30px;
+  margin: auto;
+  margin-left: 480px;
+  position: absolute;
+}
+
+.title-register{
+  text-align:center;
+  align-items: center;
+  margin: auto;
+}
+
+label{
+  margin-top: 20px;
+}
+
+input{
+  width:100%;
+  padding: 5px;
+  margin-top:5px;
+  border: none;
+  border-radius: 2px;
+}
+
+.profiles{
+  margin-left: 900px;
+  position: absolute;
+}
+.group-profile{
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid #27457c;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #142544;
+}
+
+.icon-profile{
+  width: 15vh;
+  text-align: center;
+}
+
+.user{
+  text-align: center;
+}
+
+.hr-user{
+  width: 378px;
+  align-items: center;
+  margin-left: -40px;
+  position: absolute;
+  margin-top: 30px;
+}
+
+.description{
+  display: flex;
+}
+
+.group-desc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.text{
+  margin-top: -18px;
+  margin-bottom: -5px;
+}
+
+.desc{
+  margin-top: 50px;
+}
+
+/* product */
+
+.content{
+  align-items: center;
+  text-align: center;
+}
+
+.group-content{
+  width: 150px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-img{
+  width: 40vh;
+}
+
+/* footer */
+
+footer{
+  padding: 5px;
+  text-align: center;
+  background-color: #142544;
 }

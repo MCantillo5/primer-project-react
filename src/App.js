@@ -4,7 +4,9 @@ import Nav from "./nav";
 import Product from "./product";
 import Profile from "./profile";
 import Login from "./login";
+import Register from "./register";
 import Header from './header';
+import Footer from './footer';
 
 
 
@@ -23,10 +25,12 @@ function App(){
       <Nav/>
       <Header/>
       <Login/>
+      <Register/>
       <Profile/>
       <Product sabor={'chocolate'}/>
       <Product sabor={'vainilla'}/>
       <Product sabor={'banano'}/>
+      <Footer/>
     </div>
   )
 }
