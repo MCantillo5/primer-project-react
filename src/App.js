@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import Navbar from './navbar';
-import Product from './product';
-// import Profile from "./profile";
-// import Login from "./login";
-import Register from './register';
-import Header from './header';
-import Footer from './footer';
-import Chart from './chart';
-import Login from './login';
+import Navbar from './components/navbar';
+import Product from './components/product';
+// import Profile from "./components/profile";
+// import Login from "./components/login";
+import Register from './components/register';
+import Header from './components/header';
+import Footer from './components/footer';
+import Chart from './components/chart';
+import Login from './components/login';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -24,6 +24,7 @@ function App() {
 					<Route path="Register" element={<Register />} />
 				</Routes>
 			</Router>
+      <Footer/>
 		</>
 		// <div className='App'>
 		//   <Nav/>
