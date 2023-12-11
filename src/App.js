@@ -5,7 +5,7 @@ import Product from './components/product';
 // import Profile from "./components/profile";
 // import Login from "./components/login";
 import Register from './components/register';
-import Header from './components/header';
+import Home from './components/home';
 import Footer from './components/footer';
 import Chart from './components/chart';
 import Login from './components/login';
@@ -19,23 +19,14 @@ function App() {
 				<Routes>
 					<Route path="App" element={<App />} />
 					<Route path="Product" element={<Product />} />
-					<Route path="Header" element={<Header />} />
+					<Route path="Home" element={<Home />} />
 					<Route path="Login" element={<Login />} />
 					<Route path="Register" element={<Register />} />
 				</Routes>
 			</Router>
       <Footer/>
 		</>
-		// <div className='App'>
-		//   <Nav/>
-		//   <Header/>
-		//   {/* <Login/> */}
-		//   <Chart/>
-		//   <Product sabor={'chocolate'} />
-		//   <Product sabor={'vainilla'}/>
-		//   <Product sabor={'banano'}/>
-		//   <Footer/>
-		// </div>
+		 
 	);
 }
 

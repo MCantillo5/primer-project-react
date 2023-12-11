@@ -66,7 +66,7 @@
   padding: 45px;
 }
 
-/* header */
+/* home*/
 
 .header{
   text-align: right;
@@ -119,19 +119,24 @@
 
 /* login */
 
+.login-form{
+  align-items: center;
+  padding: 100px;
+}
 
 .form-items{
-  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
   width: 250px;
-  padding: 30px;
   border: 1px solid #ccc;
-  margin-left: 70px;
+  padding: 30px;
+  margin: 0 auto;
 }
 
 .title-login{
   text-align:center;
+  align-items: center;
   margin: auto;
-  margin-bottom: 15px;
 }
 
 button{
@@ -152,6 +157,7 @@ button:hover{
 
 .form-register{
   align-items: center;
+  padding: 100px;
 }
 
 .form-group{
@@ -179,6 +185,7 @@ input{
   margin-top:5px;
   border: none;
   border-radius: 2px;
+  border: 1px solid #ccc;
 }
 
 .profiles{

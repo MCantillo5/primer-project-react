@@ -2,7 +2,7 @@ import React from "react";
 
 
 
-const Header= () =>{
+const Home= () =>{
   return(
     <header className="header">
       <div className="title">
@@ -13,4 +13,4 @@ const Header= () =>{
   )
 }
 
-export default Header;  
+export default Home;
