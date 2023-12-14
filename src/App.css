@@ -234,19 +234,20 @@ input{
 /* product */
 
 .content{
-  align-items: center;
   text-align: center;
   display: flex;
+  padding: 30px;
 }
 
 .group-content{
   width: 100%;
-  margin: 0 auto;
+  border: 1px solid #ccc;
+  margin-left: 20px;
 }
 
 
 .product-img{
-  width: 10%;
+  width: 100px;
   margin-top: 100px;
 }
 
@@ -256,4 +257,13 @@ footer{
   padding: 5px;
   text-align: center;
   background-color: #616670;
+  color: white;
+}
+
+.content-home{
+  /* background-image: url(/public/img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
+
+  color: white;
 }
